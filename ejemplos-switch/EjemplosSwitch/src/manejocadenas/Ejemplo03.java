@@ -45,3 +45,6 @@ public class Ejemplo03 {
         
     }
 }
+/*
+String.format:sirve para arrmar un texto mezclandolo con variables
+*/
