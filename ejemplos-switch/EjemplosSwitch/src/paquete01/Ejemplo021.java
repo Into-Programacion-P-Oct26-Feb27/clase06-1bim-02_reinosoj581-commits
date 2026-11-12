@@ -33,47 +33,41 @@ public class Ejemplo021 {
 
         System.out.println("Ingrese el número de día de la semana");
         int numeroDia = entrada.nextInt();
+        if (numeroDia == 1) {
+            System.out.printf("Dia %d es %s\n", numeroDia,
+                    "Lunes");
+        } else {
+            if (numeroDia == 2) {
+                System.out.printf("Dia %d es %s\n", numeroDia,
+                        "martes");
+            } else {
+                if (numeroDia == 3) {
+                    System.out.printf("Dia %d es %s\n", numeroDia,
+                            "miercoles");
+                } else {
+                    if (numeroDia == 4) {
+                        System.out.printf("Dia %d es %s\n", numeroDia,
+                                "jueves");
+                    } else {
+                        if (numeroDia == 5) {
+                            System.out.printf("Dia %d es %s\n", numeroDia,
+                                    "viernes");
+                        } else {
+                            if (numeroDia == 6) {
+                                System.out.printf("Dia %d es %s\n", numeroDia,
+                                        "sabado");
+                            } else {
+                                if (numeroDia == 7) {
+                                    System.out.printf("Dia %d es %s\n", numeroDia,
+                                            "domingo");
+                                }
 
-        switch (numeroDia) {
-            case 1:
-                System.out.printf("Día %d es %s\n", numeroDia, 
-                        "Lunes");
-                break;
+                            }
 
-            case 2:
-                System.out.printf("Día %d es %s\n", numeroDia, 
-                        "Martes");
-                break;
-
-            case 3:
-                System.out.printf("Día %d es %s\n", numeroDia, 
-                        "Miércoles");
-                break;
-
-            case 4:
-                System.out.printf("Día %d es %s\n", numeroDia, 
-                        "Jueves");
-                break;
-
-            case 5:
-                System.out.printf("Día %d es %s\n", numeroDia, 
-                        "Viernes");
-                break;
-
-            case 6:
-                System.out.printf("Día %d es %s\n", numeroDia, 
-                        "Sábado");
-                break;
-
-            case 7:
-                System.out.printf("Día %d es %s\n", numeroDia, 
-                        "Domingo");
-                break;
-
-            default:
-                System.out.println("Opción incorrecta");
-                break;
+                        }
+                    }
+                }
+            }
         }
-
     }
 }

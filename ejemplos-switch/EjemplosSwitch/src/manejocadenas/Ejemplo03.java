@@ -47,4 +47,8 @@ public class Ejemplo03 {
 }
 /*
 String.format:sirve para arrmar un texto mezclandolo con variables
+<<<<<<< HEAD
 */
+=======
+*/
+>>>>>>> 0c0c543508af3d71dfbf252be15f3c987d8287d6
